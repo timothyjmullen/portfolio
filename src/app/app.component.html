@@ -1,0 +1,26 @@
+<div id="wrapper" class="content">
+    
+
+    <div class="columns">
+        <aside class="column is-4 lbg">
+            <img src="../assets/images/animateit.png" [ngClass]="{spinit: theSpinThing == true}" style="max-height:100px;"/>
+            <!--<user-profile></user-profile>-->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/timothymullen/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                <a href="https://github.com/timothyjmullen" target="_blank"><i class="fab fa-github"></i> </a>
+                <a href="https://stackoverflow.com/users/4499589/tim-mullen?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+            </div>
+            
+        </aside>
+
+        <main class="column is-8 is-offset-4 ctnt" [@routerTransition]="getState(o)">
+            <main-nav></main-nav>
+            <!--<notification-message></notification-message>-->
+            <div class="innit">
+                <div class="fixit"><router-outlet #o="outlet"></router-outlet></div>
+            </div>
+            
+        </main>
+    </div>
+</div>
+

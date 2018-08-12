@@ -40,7 +40,8 @@ export class AppComponent {
   }
 
   /* Get router state for animation */
-  getState(outlet) {
+  getState(outlet) { 
+    console.log( outlet.activatedRouteData.title)
     return outlet.activatedRouteData.title;
     
   }

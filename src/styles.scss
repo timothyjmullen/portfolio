@@ -44,6 +44,7 @@ h6,
     font-family: $heading-font;
     font-weight:400;
 }
+contact-page {width:100%;}
 
 .content h1 {
     font-size:55px;
@@ -52,6 +53,11 @@ h6,
 }
 .content h2 {
     font-size:40px;
+    font-weight:500;
+    margin:10px 0;
+}
+.content h3 {
+    font-size:30px;
     font-weight:500;
     margin:10px 0;
 }
@@ -72,13 +78,6 @@ a {
     min-height: 100vh;
     flex-direction: column;
 }
-
-.content {
-    // min-height: 70vh;
-    // padding: 2vw;
-    // flex: 1
-}
-
 
 .videoWrapper {
     position: relative;

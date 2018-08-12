@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { UserLoginComponent } from './user-login/user-login.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
@@ -18,6 +19,7 @@ import { SsrPageComponent } from './ssr-page/ssr-page.component';
   declarations: [
     UserLoginComponent,
     HomePageComponent,
+    ProjectsPageComponent,
     ContactPageComponent,
     MainNavComponent,
     LoadingSpinnerComponent,

@@ -2,12 +2,13 @@
     background-image: url('../assets/images/side.jpg');
     background-position: bottom left;
     background-size:cover;
-    position:absolute;
+    position:fixed;
     top:0;
     bottom:0;
 }
 .ctnt {
-    position:absolute;
+    position:relative;
+    min-height:100vh;
     top:0;
     bottom:0;
     right:0;
@@ -20,7 +21,7 @@
     display: flex;
     min-height: 75%;
     width:90%;
-    justify-content: space-between;
+    justify-content: center;
 }
 .fixit {
     display:inline-block;

@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './core/auth.guard';
 import { UserLoginComponent } from './ui/user-login/user-login.component';
 import { HomePageComponent } from './ui/home-page/home-page.component';
+import { ProjectsPageComponent } from './ui/projects-page/projects-page.component';
 import { ContactPageComponent } from './ui/contact-page/contact-page.component';
 import { NotesListComponent } from './notes/notes-list/notes-list.component';
 import { UploadPageComponent } from './uploads/upload-page/upload-page.component';
@@ -16,7 +17,7 @@ const routes: Routes = [
   { path: 'uploads',  component: UploadPageComponent,  canActivate: [AuthGuard], data: {title: 'Uploads'} },
   { path: 'contact',  component: ContactPageComponent, data: {title: 'Contact'} },
   { path: 'thoughts',  component: HomePageComponent, data: {title: 'Thoughts'} },
-  { path: 'projects',  component: HomePageComponent, data: {title: 'Projects'} },
+  { path: 'projects',  component: ProjectsPageComponent, data: {title: 'Projects'} },
 ];
 
 @NgModule({
